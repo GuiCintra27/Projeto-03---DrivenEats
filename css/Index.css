@@ -43,6 +43,9 @@ body{
     color: var(--black);
 }
 
+.Off{
+    display: none;
+}
 
 @media(max-width:768px){
 
@@ -105,10 +108,10 @@ body{
         background: var(--white);
         border-radius: 9px;
         padding: 1.8rem 1.4rem 1.3rem 1.4rem;
-        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25)
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     }
 
-    .Option img{
+    .Option > img{
         border-radius: 4px;
         margin-bottom: .8rem;
         max-height: 12rem;
@@ -129,10 +132,21 @@ body{
         width: 14rem;
     }
 
+    .Option div:last-child{
+        display: flex;
+        justify-content: space-between;
+        width: 14rem;
+    }
+
     .Option .Price{
         font-weight: 400;
         font-size: 16px;
         width: 14rem;
+    }
+
+    .Option div:last-child img{
+        height: 2rem;
+        margin-right: -3rem;
     }
 
     /* BOTÃO DE FECHAR PEDIDO */
@@ -152,11 +166,22 @@ body{
         border-radius: 50px;
         padding: .8rem;
         width: 100%;
+        height: 100%;
     }
 
     footer button p{
         color: var(--white);
         font-weight: 400;
         font-size: 20px;
+    }
+
+    /* CLASSE DOS PRATOS SELECIONADOS */
+
+    .Selected{
+        border: 5px solid var(--green) !important;
+    }
+
+    .Close-order{
+        background: var(--green);
     }
 }
