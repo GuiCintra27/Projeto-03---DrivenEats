@@ -21,62 +21,62 @@
             <h2>Primeiro, seu prato</h2>
             
             <div class="Options">
-                <div class="Option" id="P1" onclick="Order(P1)">
+                <div class="Option" id="P1" onclick="Order(P1, DP1)">
                     <img src="images/Prato_1.svg" alt="Prato principal">
-                    <p class="Name_of_the_dish">Frango Yin Yang</p>
+                    <p class="Name_of_the_dish" id="DP1" >Frango Yin Yang</p>
                     <p class="Ingredients">
                         Um pouco de batata, um pouco de salada
                     </p>
                     <div>
-                        <p class="Price">R$ 14,90</p>
+                        <p class="Price" id='PP1'>R$ 14.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CP1">
                     </div>
                 </div>
 
-                <div class="Option" id="P2" onclick="Order(P2)">
+                <div class="Option" id="P2" onclick="Order(P2, DP2)">
                     <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2020/09/comidas-tipicas-capa2019.jpg" alt="Prato principal">
-                    <p class="Name_of_the_dish">Feijoada</p>
+                    <p class="Name_of_the_dish" id="DP2" >Feijoada</p>
                     <p class="Ingredients">
                         Feijão, linguiça, salada, arroz, tempero e carne de porco
                     </p>
                     <div>
-                        <p class="Price">R$ 16,90</p>
+                        <p class="Price" id="PP2" >R$ 16.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CP2">
                     </div>
                 </div>
 
-                <div class="Option" id="P3" onclick="Order(P3)">
+                <div class="Option" id="P3" onclick="Order(P3, DP3)">
                     <img src="https://img.freepik.com/fotos-gratis/bife-de-frango-coberto-com-gergelim-branco-ervilhas-tomates-brocolis-e-abobora-em-um-prato-branco_1150-24770.jpg?w=2000" alt="Prato principal">
-                    <p class="Name_of_the_dish">Low Carb</p>
+                    <p class="Name_of_the_dish" id="DP3" >Low Carb</p>
                     <p class="Ingredients">
                         Frango grelhado e salada
                     </p>
                     <div>
-                        <p class="Price">R$ 12,50</p>
+                        <p class="Price" id="PP3" >R$ 12.50</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CP3">
                     </div>
                 </div>
 
-                <div class="Option" id="P4" onclick="Order(P4)">
+                <div class="Option" id="P4" onclick="Order(P4, DP4)">
                     <img src="https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2019/08/din1135-sustenta5.jpg" alt="Prato principal">
-                    <p class="Name_of_the_dish">Básicão</p>
+                    <p class="Name_of_the_dish" id="DP4" >Básicão</p>
                     <p class="Ingredients">
                         Carne, salada, arroz e feijão
                     </p>
                     <div>
-                        <p class="Price">R$ 14,90</p>
+                        <p class="Price" id="PP4" >R$ 14.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CP4">
                     </div>
                 </div>
 
-                <div class="Option" id="P5" onclick="Order(P5)">
+                <div class="Option" id="P5" onclick="Order(P5, DP5)">
                     <img src="https://gourmetjr.com.br/wp-content/uploads/2018/03/JPEG-image-B6230B799E47-1_1170x600_acf_cropped_490x292_acf_cropped.jpeg" alt="Prato principal">
-                    <p class="Name_of_the_dish">Kids da Deep Web</p>
+                    <p class="Name_of_the_dish" id="DP5" >Kids da Deep Web</p>
                     <p class="Ingredients">
                         Acho que seu filho não vai querer comer isso...
                     </p>
                     <div>
-                        <p class="Price">R$ 10,90</p>
+                        <p class="Price" id="PP5" >R$ 10.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CP5">
                     </div>
                 </div>                
@@ -87,62 +87,62 @@
             <h2>Agora, sua bebida</h2>
 
             <div class="Options">
-                <div class="Option" id="B1" onclick="Order(B1)">
+                <div class="Option" id="B1" onclick="Order(B1, DB1)">
                     <img src="images/Bebida_1.svg" alt="Bebida">
-                    <p class="Name_of_the_dish">Coquinha gelada</p>
+                    <p class="Name_of_the_dish" id="DB1" >Coquinha gelada</p>
                     <p class="Ingredients">
                         Lata 350ml
                     </p>
                     <div>
-                        <p class="Price">R$ 4,90</p>
+                        <p class="Price" id="PB1" >R$ 4.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CB1">
                     </div>
                 </div>
     
-                <div class="Option" id="B2" onclick="Order(B2)">
+                <div class="Option" id="B2" onclick="Order(B2, DB2)">
                     <img src="https://araujo.vteximg.com.br/arquivos/ids/4056086-1000-1000/07898923217017.jpg?v=637455499955470000" alt="Bebida">
-                    <p class="Name_of_the_dish">Guaraviton</p>
+                    <p class="Name_of_the_dish" id="DB2" >Guaraviton</p>
                     <p class="Ingredients">
                         Garrafa 500ml
                     </p>
                     <div>
-                        <p class="Price">R$ 6,50</p>
+                        <p class="Price" id="PB2" >R$ 6.50</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CB2">
                     </div>
                 </div>
 
-                <div class="Option" id="B3" onclick="Order(B3)">
+                <div class="Option" id="B3" onclick="Order(B3, DB3)">
                     <img src="https://static.clubeextra.com.br/img/uploads/1/674/17923674.png" alt="Bebida">
-                    <p class="Name_of_the_dish">Heineken</p>
+                    <p class="Name_of_the_dish" id="DB3" >Heineken</p>
                     <p class="Ingredients">
                         Lata 350ml
                     </p>
                     <div>
-                        <p class="Price">R$ 5,50</p>
+                        <p class="Price" id="PB3" >R$ 5.50</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CB3">
                     </div>
                 </div>
     
-                <div class="Option" id="B4" onclick="Order(B4)">
+                <div class="Option" id="B4" onclick="Order(B4, DB4)">
                     <img src="https://comeonburger.com.br/wp-content/uploads/2019/12/laranja.jpg" alt="Bebida">
-                    <p class="Name_of_the_dish">Suco de Laranja</p>
+                    <p class="Name_of_the_dish" id="DB4" >Suco de Laranja</p>
                     <p class="Ingredients">
                         Copo 500ml
                     </p>
                     <div>
-                        <p class="Price">R$ 5,50</p>
+                        <p class="Price" id="PB4" >R$ 5.50</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CB4">
                     </div>
                 </div>
 
-                <div class="Option" id="B5" onclick="Order(B5)">
+                <div class="Option" id="B5" onclick="Order(B5, DB5)">
                     <img src="https://images.tcdn.com.br/img/img_prod/858764/refrigerante_coca_cola_zero_lata_220ml_c_12_363_1_20201021152513.jpg" alt="Bebida">
-                    <p class="Name_of_the_dish">Coquinha zero</p>
+                    <p class="Name_of_the_dish" id="DB5" >Coquinha zero</p>
                     <p class="Ingredients">
                         Lata 350ml
                     </p>
                     <div>
-                        <p class="Price">R$ 4,90</p>
+                        <p class="Price" id="PB5" >R$ 4.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CB5">
                     </div>
                 </div>
@@ -153,62 +153,62 @@
             <h2>Por fim, sua sobremesa</h2>
             
             <div class="Options">            
-                <div class="Option" id="S1" onclick="Order(S1)">
+                <div class="Option" id="S1" onclick="Order(S1, DS1)">
                     <img src="images/Sobremesa_1.svg" alt="Sobremesa">
-                    <p class="Name_of_the_dish">Pudim</p>
+                    <p class="Name_of_the_dish" id="DS1" >Pudim</p>
                     <p class="Ingredients">
                         Apenas pudim
                     </p>
                     <div>
-                        <p class="Price">R$ 7,90</p>
+                        <p class="Price" id="PS1" >R$ 7.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CS1">
                     </div>
                 </div>
 
-                <div class="Option" id="S2" onclick="Order(S2)">
+                <div class="Option" id="S2" onclick="Order(S2, DS2)">
                     <img src="images/Sobremesa_2.jpg" alt="Sobremesa">
-                    <p class="Name_of_the_dish">Frappe</p>
+                    <p class="Name_of_the_dish" id="DS2" >Frappe</p>
                     <p class="Ingredients">
                         Frappe de chocolate
                     </p>
                     <div>
-                        <p class="Price">R$ 15,90</p>
+                        <p class="Price" id="PS2" >R$ 15.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CS2">
                     </div>
                 </div>
 
-                <div class="Option" id="S3" onclick="Order(S3)">
+                <div class="Option" id="S3" onclick="Order(S3, DS3)">
                     <img src="https://www.guiadasemana.com.br/contentFiles/image/opt_w1280h960/2021/01/FEA/66671_shutterstock-526821310.jpg" alt="Sobremesa">
-                    <p class="Name_of_the_dish">Milkshake</p>
+                    <p class="Name_of_the_dish" id="DS3" >Milkshake</p>
                     <p class="Ingredients">
                         Baunilha, Chocolate e Morango
                     </p>
                     <div>
-                        <p class="Price">R$ 17,90</p>
+                        <p class="Price" id="PS3" >R$ 17.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CS3">
                     </div>
                 </div>
 
-                <div class="Option" id="S4" onclick="Order(S4)">
+                <div class="Option" id="S4" onclick="Order(S4, DS4)">
                     <img src="https://amp.receitadevovo.com.br/wp-content/uploads/2020/10/petit-gateau-3_25092018203008.jpg" alt="Sobremesa">
-                    <p class="Name_of_the_dish">Petit Gateau</p>
+                    <p class="Name_of_the_dish" id="DS4" >Petit Gateau</p>
                     <p class="Ingredients">
                         Chocolate e Baunilha
                     </p>
                     <div>
-                        <p class="Price">R$ 27,90</p>
+                        <p class="Price" id="PS4" >R$ 27.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CS4">
                     </div>
                 </div>
 
-                <div class="Option" id="S5" onclick="Order(S5)">
+                <div class="Option" id="S5" onclick="Order(S5, DS5)">
                     <img src="https://s2.glbimg.com/ft8I9NlraPSn6HWmT8mWS6iOfYA=/e.glbimg.com/og/ed/f/original/2021/04/19/acai.jpg" alt="Sobremesa">
-                    <p class="Name_of_the_dish">Açaí</p>
+                    <p class="Name_of_the_dish" id="DS5" >Açaí</p>
                     <p class="Ingredients">
                         tigela 500ml
                     </p>
                     <div>
-                        <p class="Price">R$ 10,90</p>
+                        <p class="Price" id="PS5" >R$ 10.90</p>
                         <img src="images/Checkmark.svg" alt="Produto confirmado" class="Off" id="CS5">
                     </div>
                 </div>
@@ -224,13 +224,11 @@
             </p>
         </button>
 
-        <a href="https://wa.me/5522992710166?text=Olá%20,%20gostaria%20de%20fazer%20o%20pedido:20%-20%Prato:20%Frango20%Yin20%Yang">
-            <button onclick="Finish()" id="Close-order-button" class="Close-order Off">
-                <p>
-                    Fechar pedido
-                </p>
-            </button>
-        </a>
+        <button onclick="Finish()" id="Close-order-button" class="Close-order Off">
+            <p>
+                Fechar pedido
+            </p>
+        </button>
     </footer>
 
     <!-- SCRIPTS -->
